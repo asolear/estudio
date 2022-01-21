@@ -1,0 +1,126 @@
+site_name: Estudio FV Residencial
+site_url: https://ayudas.solar
+nav:
+  - Localizacion: index.md
+  - Resumen: Resumen.md
+  - Consumo y recursos: Consumo y recursos.md
+  - Dimensionado del sistema: Dimensionado del sistema.md
+  - Costes de instalacion: Costes de instalacion.md
+  - Incentivos: Incentivos.md
+  - Financiacion: Financiacion.md
+  - Factura de la luz: Factura de la luz.md
+  - Pliego de Condiciones Tecnicas: Pliego de Condiciones Tecnicas.md
+
+
+theme:
+  features:
+    - navigation.indexes
+  palette:
+    primary: indigo
+  name: material
+  language: es
+  favicon: assets/favicon.ico
+  logo: assets/logo.svg
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  custom_dir: docs/overrides
+# plugins:
+#   # - pdf-export # *** ERROR: Failed to load image at 'http://yoursite.com/the.pdf':
+#   # - pdf-export:
+#   #     verbose: true
+#   # - mknotebooks
+#   # - mkdocs-video
+#   - with-pdf # **** crea un documento mu chulo
+#   - search
+  # - macros:
+      # include_dir: snippets  
+  # - blogging:
+  #     dirs: # The directories to be included
+  #       - blog
+  # - print-site
+      #  icono "≡"
+# https://analytics.google.com/analytics/web/?authuser=2#/p288143966/realtime/overview?params=_u..nav%3Dmaui
+extra:
+  analytics:
+    provider: google
+    property: G-BY8HY373BD
+  fig:
+    url: https://asolear01-psqrfpso4a-ew.a.run.app/
+    # url: http://192.168.1.115:5000/
+
+
+
+markdown_extensions:
+  - meta
+  - tables
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.pathconverter:
+      base_path: '' # default: ''
+      relative_path: '' # default ''
+      absolute: false # default: false
+      tags: 'a script img link object embed'
+
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+
+copyright: 'esto esta escrito desde el Copyright 2021 Asolear'
+
+
+plugins:
+  - search
+  # - print-site:
+  #        path_to_pdf: assets/document.pdf
+
+  # - with-pdf:
+  #     author: Asolear
+  #     copyright: Asolear
+  #     # cover: false
+  #     back_cover: true
+  #     cover_title: Generacion Fotovoltaica
+  #     cover_subtitle: Estudio Tecnico Economico
+  #     cover_logo: 'assets/logo.png'
+  #     # custom_template_path: TEMPLATES PATH
+      
+  #     toc_title: Tabla de contenidos
+  #     heading_shift: false
+  #     toc_level: 3
+  #     ordered_chapter_level: 2
+  #     # excludes_children:
+  #     #    - 'release-notes/:upgrading'
+  #     #    - 'release-notes/:changelog'
+      
+  #     # exclude_pages:
+  #     #    - 'bugs/'
+  #     #    - 'appendix/contribute/'
+  #     # convert_iframe:
+  #     #    - src: IFRAME SRC
+  #     #      img: POSTER IMAGE URL
+  #     #      text: ALTERNATE TEXT
+  #     #    - src: ...
+  #     two_columns_level: 3
+  #     # render_js: true
+  #     # headless_chrome_path: /snap/bin/chromium
+  #     output_path: assets/document.pdf
+  #     # enabled_if_env: ENABLE_PDF_EXPORT
+  #     # debug_html: true
+  #     # show_anchors: true
+  #     # verbose: true
