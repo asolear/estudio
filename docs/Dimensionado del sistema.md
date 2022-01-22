@@ -1,5 +1,22 @@
 # Dimensionado del sistema
+### Potencia Pico del Generador
+
+![image-20220118012834130](Dimensionado%20del%20sistema.assets/image-20220118012834130.png)
+
+### Optimizacion del VAN y Payback
+
+Se buscan los valores optimos para el VAN y el Pyback en el entorno de las Potencia pico del generador obtenida
+
+
+
+![image-20220118013316814](Dimensionado%20del%20sistema.assets/image-20220118013316814.png)
+
+
+
+
+
 ## 1 Generalidades
+
 * 1.1 El objeto de este apartado es evaluar el dimensionado del generador fotovoltaico llevado a cabo por el instalador, con independencia de los métodos que el instalador utilice para esta tarea.
 * 1.2 Para ello se le pedirá que indique la eficiencia energética esperada para la instalación.
 
@@ -192,28 +209,6 @@ Donde:
 * $\eta_{inv}$= Rendimiento energético del inversor
 * $\eta_{rb}$ = Rendimiento energético del acumulador + regulador
 * $L_D$ = Consumo diario medio de la carga en Ah
-
-
-
-
-
-## Cálculo
-
-### Potencia Pico del Generador
-
-![image-20220118012834130](Dimensionado%20del%20sistema.assets/image-20220118012834130.png)
-
-### Optimizacion del VAN y Payback
-
-Se buscan los valores optimos para el VAN y el Pyback en el entorno de las Potencia pico del generador obtenida
-
-
-
-![image-20220118013316814](Dimensionado%20del%20sistema.assets/image-20220118013316814.png)
-
-### Parametros financieros
-
-
 
 
 
